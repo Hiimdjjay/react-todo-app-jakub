@@ -1,0 +1,24 @@
+.container {
+	background-color: var(--secondary-color);
+	padding: 30px;
+	min-width: 550px;
+	border-radius: 15px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.button {
+	width: 50px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	border: none;
+	background-color: var(--main-button);
+	color: #fff;
+	font-size: 35px;
+	cursor: pointer;
+}

@@ -1,0 +1,21 @@
+:root {
+	--main-color: #E5D0AC;
+	--secondary-color: #FEF9E1;
+	--main-button: #6D2323;
+	--secondary-button: #A31D1D;
+	
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Helvetica', 'sans-serif';
+	background-color: var(--main-color);
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}

@@ -1,0 +1,17 @@
+.form {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 20px;
+}
+
+.input {
+	padding: 4px 10px;
+	width: 100%;
+}
+
+.error {
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 14px;
+	color: var(--main-color);
+}

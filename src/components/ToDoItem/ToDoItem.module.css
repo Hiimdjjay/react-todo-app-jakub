@@ -1,0 +1,40 @@
+.element {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	border-top: 1px solid black;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.name {
+	width: 100%;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.editInput {
+	font-size: 15px;
+	width: 100%;
+	padding: 4px 8px;
+	border: 1px solid var(--main-color);
+	border-radius: 4px;
+	background-color: #348adb13;
+}
+
+.editInput:focus {
+	outline: transparent;
+
+}
+
+.editForm {
+	display: flex;
+	gap: 20px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	border-top: 1px solid black;
+}
+
