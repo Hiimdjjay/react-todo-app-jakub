@@ -41,7 +41,7 @@ function App() {
 		<div className={styles.container}>
 			<header className={styles.header}>
 				<div>
-					<h1>Do zrobienia</h1>
+					<h1>Todo</h1>
 					<h2>{showNumber(todos.length)}</h2>
 				</div>
 				{!isFormShown && (
